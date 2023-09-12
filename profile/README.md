@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="assets/Boyka.png" alt="logo" width="200" height="auto" />
+  <img src="../assets/Boyka.png" alt="logo" width="200" height="auto" />
 
   <h2>
     🎉 Ultimate test automation for testing any application on any platform
@@ -16,7 +16,7 @@
 
 [![Open in GitPod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/BoykaFramework/boyka-framework)
 
-  <a href="https://discord.gg/dUg8K9DAsR">
+  <a href="https://dub.sh/boyka-discord">
     <img src="https://img.shields.io/discord/950985052769120337?label=Discord&logo=Discord&style=for-the-badge" alt="Join Discord">
   </a>
   <a href="https://github.com/BoykaFramework/boyka-framework/graphs/contributors">
@@ -28,8 +28,8 @@
   <a href="https://mvnrepository.com/artifact/com.github.wasiqb.boyka/boyka-framework">
     <img src="https://img.shields.io/maven-central/v/com.github.wasiqb.boyka/boyka-framework.svg?style=for-the-badge" alt="Maven Central" />
   </a>
-  <a href="https://github.com/BoykaFramework/boyka-framework/releases/tag/v0.13.0">
-    <img src="https://img.shields.io/github/downloads/BoykaFramework/boyka-framework/v0.13.0/total?color=brightgreen&label=Downloads%20for%20v0.13.0&logo=GitHub&style=for-the-badge" alt="GitHub releases" />
+  <a href="https://github.com/BoykaFramework/boyka-framework/releases/tag/v0.17.0">
+    <img src="https://img.shields.io/github/downloads/BoykaFramework/boyka-framework/v0.17.0/total?color=brightgreen&label=Downloads%20for%20v0.17.0&logo=GitHub&style=for-the-badge" alt="GitHub releases" />
   </a>
   <a href="https://github.com/BoykaFramework/boyka-framework/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/BoykaFramework/boyka-framework.svg?style=for-the-badge" alt="license" />
@@ -62,12 +62,15 @@ This all gave me an idea of having a single framework which could solve all the 
 - ✅ Zero boilerplate code
 - ✅ Support Rest API automation with schema validations and response body verification
 - ✅ Supports Web browser automation with support for Chrome, Edge, Firefox and Safari.
-- ✅ Supports Android native apps automation
-- ✅ Supports iOS native apps automation
-- ✅ Supports execution of Web tests on cloud platforms like BrowserStack and LambdaTest.
+- ✅ Supports Android native, web and hybrid apps automation
+- ✅ Supports iOS native, web and hybrid apps automation
+- ✅ Allow Multi-user Multi-platform session interactions like testing a multi-platform chat application
+- ✅ Supports execution of Web tests on cloud platforms like BrowserStack and LambdaTest
 - ✅ Highly configurable via `boyka-config.json`
 - ✅ Micro logging to log events of the test execution
 - ✅ Supports taking screenshots
+- ✅ Highly extensible via listeners for integrating with available Reporters
+- ✅ Supports any available test frameworks like TestNG, JUnit, Cucumber, etc.
 
 ## ⏱️ Coming soon
 
@@ -86,7 +89,7 @@ Use this space to tell a little more about your project and how it can be used. 
 <dependency>
   <groupId>com.github.wasiqb.boyka</groupId>
   <artifactId>boyka-framework</artifactId>
-  <version>0.13.0</version>
+  <version>0.17.0</version>
 </dependency>
 ```
 
@@ -110,21 +113,27 @@ Use this space to tell a little more about your project and how it can be used. 
   - [How to create common application action class?](https://boykaframework.github.io/boyka-framework/docs/guides/ui/page-action)
   - [How to write test class using common action class?](https://boykaframework.github.io/boyka-framework/docs/guides/ui/write-test)
 
-## 💎 Cloud platform supporters
+## 💎 Open source supporters
 
 Big thanks to the following organizations for their support to the project with their open source licenses:
 
 <div align="center">
   <a href="http://www.lambdatest.com?fp_ref=wasiq95" target="_blank" style="outline:none;border:none;"><img src="https://d2gdx5nv84sdx2.cloudfront.net/uploads/n3ufe5o3/marketing_asset/banner/6476/728_x_90.png" alt="lambdatest"/></a>
   <br/>
-  <a href="http://www.browserstack.com" target="_blank" style="outline:none;border:none;"><img src="./website/static/img/docs/community/our-supporters/browser-stack.png" alt="browserstack"/></a>
+  <a href="https://www.browserstack.com/" target="_blank" style="outline:none;border:none;"><img src="../assets/our-supporters/browser-stack.png" alt="browserstack"/></a>
+  <br/>
+  <a href="https://www.jetbrains.com/" target="_blank" style="outline:none;border:none;"><img src="../assets/our-supporters/jetbrains.png" alt="JetBrains" width="300px"/></a>
+  <br/>
+  <a href="https://tuple.app/" target="_blank" style="outline:none;border:none;"><img src="../assets/our-supporters/tuple.svg" alt="Tuple" width="300px"/></a>
 </div>
 
-## 🧭 Project Road-map
+## 📐 Framework Architecture
 
 Following is the framework design for it's initial MVP:
 
 ![Boyka framework design](assets/Boyka-Framework.png)
+
+## 🧭 Project Road-map
 
 Check out our road map to know which features we are cooking,
 
@@ -135,6 +144,6 @@ Check out our road map to know which features we are cooking,
 
 ## 🤝 Contact
 
-- Join our [Discord server](https://discord.gg/dUg8K9DAsR) to discuss anything about the framework
+- Join our [Discord server](https://dub.sh/boyka-discord) to discuss anything about the framework
 - Open a [new Discussion](https://github.com/BoykaFramework/boyka-framework/discussions/new) on GitHub to ask questions or to discuss ideas
-- Connect with me on [my LinkFree links](https://linkfree.eddiehub.io/WasiqB)
+- Connect with me on [my BioDrop link](https://www.biodrop.io/WasiqB)
