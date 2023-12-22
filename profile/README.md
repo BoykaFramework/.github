@@ -133,7 +133,7 @@ Big thanks to the following organizations for their support to the project with 
 
 Following is the framework design for it's initial MVP:
 
-![Boyka framework design](assets/Boyka-Framework.png)
+![Boyka framework design](../assets/Boyka-Framework.png)
 
 ## 🧭 Project Road-map
 
