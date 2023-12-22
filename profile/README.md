@@ -28,8 +28,8 @@
   <a href="https://mvnrepository.com/artifact/com.github.wasiqb.boyka/boyka-framework">
     <img src="https://img.shields.io/maven-central/v/com.github.wasiqb.boyka/boyka-framework.svg?style=for-the-badge" alt="Maven Central" />
   </a>
-  <a href="https://github.com/BoykaFramework/boyka-framework/releases/tag/v0.17.0">
-    <img src="https://img.shields.io/github/downloads/BoykaFramework/boyka-framework/v0.17.0/total?color=brightgreen&label=Downloads%20for%20v0.17.0&logo=GitHub&style=for-the-badge" alt="GitHub releases" />
+  <a href="https://github.com/BoykaFramework/boyka-framework/releases/tag/v0.20.1">
+    <img src="https://img.shields.io/github/downloads/BoykaFramework/boyka-framework/v0.20.1/total?color=brightgreen&label=Downloads%20for%20v0.20.1&logo=GitHub&style=for-the-badge" alt="GitHub releases" />
   </a>
   <a href="https://github.com/BoykaFramework/boyka-framework/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/BoykaFramework/boyka-framework.svg?style=for-the-badge" alt="license" />
@@ -70,15 +70,17 @@ This all gave me an idea of having a single framework which could solve all the 
 - ✅ Micro logging to log events of the test execution
 - ✅ Supports taking screenshots
 - ✅ Highly extensible via listeners for integrating with available Reporters
-- ✅ Supports any available test frameworks like TestNG, JUnit, Cucumber, etc.
+- ✅ Supports any available test frameworks like TestNG, JUnit, Cucumber, etc
+- ✅ Support video recording of the tests for Mobile platforms
+- ✅ Supports handling test data from Excel files
 
 ## ⏱️ Coming soon
 
 Following are the awesome features which will be implemented soon to the frameworks:
 
 - Support for GraphQL and SOAP API automation
-- Support video recording of the tests for Web and Mobile platforms
-- Support for more cloud platforms.
+- Support video recording of the tests for Web platforms
+- Support for more cloud platforms
 - Many many more...
 
 ## 👀 Usage
@@ -89,7 +91,7 @@ Use this space to tell a little more about your project and how it can be used. 
 <dependency>
   <groupId>com.github.wasiqb.boyka</groupId>
   <artifactId>boyka-framework</artifactId>
-  <version>0.17.0</version>
+  <version>0.20.1</version>
 </dependency>
 ```
 
