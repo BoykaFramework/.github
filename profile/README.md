@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="assets/Boyka.png" alt="logo" width="200" height="auto" />
+  <img src="../assets/Boyka.png" alt="logo" width="200" height="auto" />
 
   <h2>
     🎉 Ultimate test automation for testing any application on any platform
