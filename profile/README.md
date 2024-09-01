@@ -122,18 +122,18 @@ Big thanks to the following organizations for their support to the project with 
 <div align="center">
   <a href="http://www.lambdatest.com?fp_ref=wasiq95" target="_blank" style="outline:none;border:none;"><img src="https://d2gdx5nv84sdx2.cloudfront.net/uploads/n3ufe5o3/marketing_asset/banner/6476/728_x_90.png" alt="lambdatest"/></a>
   <br/>
-  <a href="https://www.browserstack.com/" target="_blank" style="outline:none;border:none;"><img src="assets/our-supporters/browser-stack.png" alt="browserstack"/></a>
+  <a href="https://www.browserstack.com/" target="_blank" style="outline:none;border:none;"><img src="../assets/our-supporters/browser-stack.png" alt="browserstack"/></a>
   <br/>
-  <a href="https://www.jetbrains.com/" target="_blank" style="outline:none;border:none;"><img src="assets/our-supporters/jetbrains.png" alt="JetBrains" width="300px"/></a>
+  <a href="https://www.jetbrains.com/" target="_blank" style="outline:none;border:none;"><img src="../assets/our-supporters/jetbrains.png" alt="JetBrains" width="300px"/></a>
   <br/>
-  <a href="https://tuple.app/" target="_blank" style="outline:none;border:none;"><img src="assets/our-supporters/tuple.svg" alt="Tuple" width="300px"/></a>
+  <a href="https://tuple.app/" target="_blank" style="outline:none;border:none;"><img src="../assets/our-supporters/tuple.svg" alt="Tuple" width="300px"/></a>
 </div>
 
 ## 📐 Framework Architecture
 
 Following is the framework design for it's initial MVP:
 
-![Boyka framework design](assets/Boyka-Framework.png)
+![Boyka framework design](../assets/Boyka-Framework.png)
 
 ## 🧭 Project Road-map
 
