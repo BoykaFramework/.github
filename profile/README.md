@@ -11,11 +11,6 @@
 
 <!-- Badges -->
 <p>
-
-[![Product Hunt](https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=352770&theme=light)](https://www.producthunt.com/posts/boyka-framework?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-boyka-framework)
-
-[![Open in GitPod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/BoykaFramework/boyka-framework)
-
   <a href="https://dub.sh/boyka-discord">
     <img src="https://img.shields.io/discord/950985052769120337?label=Discord&logo=Discord&style=for-the-badge" alt="Join Discord">
   </a>
@@ -25,11 +20,11 @@
   <a href="https://github.com/BoykaFramework/boyka-framework/commits/main">
     <img src="https://img.shields.io/github/last-commit/BoykaFramework/boyka-framework?style=for-the-badge" alt="last update" />
   </a>
-  <a href="https://mvnrepository.com/artifact/com.github.wasiqb.boyka/boyka-framework">
-    <img src="https://img.shields.io/maven-central/v/com.github.wasiqb.boyka/boyka-framework.svg?style=for-the-badge" alt="Maven Central" />
+  <a href="https://central.sonatype.com/artifact/io.github.boykaframework/boyka-framework">
+    <img src="https://img.shields.io/maven-central/v/io.github.boykaframework/boyka-framework.svg?style=for-the-badge" alt="Maven Central" />
   </a>
-  <a href="https://github.com/BoykaFramework/boyka-framework/releases/tag/v0.20.1">
-    <img src="https://img.shields.io/github/downloads/BoykaFramework/boyka-framework/v0.20.1/total?color=brightgreen&label=Downloads%20for%20v0.20.1&logo=GitHub&style=for-the-badge" alt="GitHub releases" />
+  <a href="https://github.com/BoykaFramework/boyka-framework/releases/tag/v2.1.0">
+    <img src="https://img.shields.io/github/downloads/BoykaFramework/boyka-framework/v2.1.0/total?color=brightgreen&label=Downloads%20for%20v2.1.0&logo=GitHub&style=for-the-badge" alt="GitHub releases" />
   </a>
   <a href="https://github.com/BoykaFramework/boyka-framework/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/BoykaFramework/boyka-framework.svg?style=for-the-badge" alt="license" />
@@ -37,7 +32,7 @@
 </p>
 
   <h4>
-    <a href="https://boykaframework.github.io/boyka-framework/docs/intro">Documentation</a>
+    <a href="https://BoykaFramework.github.io/boyka-framework/docs/intro">Documentation</a>
   <span> | </span>
     <a href="https://github.com/BoykaFramework/boyka-framework/issues/new/choose">Report Bug</a>
   <span> | </span>
@@ -47,73 +42,52 @@
 
 <br />
 
-## 🤔 Why was Boyka-framework created?
+## 🖱️ One command Boyka project setup
 
-In my career having vast experience in automating API, Web browsers and Mobile apps, I have seen that people had to use different frameworks for automating API, Web and Mobile applications which created a lot of chaos with respect to maintenance of dependencies and their respective code for test automation.
+Install [Boyka command line assistant](https://github.com/BoykaFramework/boyka-cli) by running the following command:
 
-Also, I never came across a test automation framework which allowed us to write automation test script without any project specific boilerplate code or a mini framework.
-
-In addition to this, there was learning curve involved for learning those individual frameworks which slowed down the team to write automation and thus increased overall automation debt.
-
-This all gave me an idea of having a single framework which could solve all the above mentioned problems and help the QA's to keep the pace up with writing test scripts and reduce the automation debt.
-
-## 🎯 Features
-
-- ✅ Zero boilerplate code
-- ✅ Support Rest API automation with schema validations and response body verification
-- ✅ Supports Web browser automation with support for Chrome, Edge, Firefox and Safari.
-- ✅ Supports Android native, web and hybrid apps automation
-- ✅ Supports iOS native, web and hybrid apps automation
-- ✅ Allow Multi-user Multi-platform session interactions like testing a multi-platform chat application
-- ✅ Supports execution of Web tests on cloud platforms like BrowserStack and LambdaTest
-- ✅ Highly configurable via `boyka-config.json`
-- ✅ Micro logging to log events of the test execution
-- ✅ Supports taking screenshots
-- ✅ Highly extensible via listeners for integrating with available Reporters
-- ✅ Supports any available test frameworks like TestNG, JUnit, Cucumber, etc
-- ✅ Support video recording of the tests for Mobile platforms
-- ✅ Supports handling test data from Excel files
-
-## ⏱️ Coming soon
-
-Following are the awesome features which will be implemented soon to the frameworks:
-
-- Support for GraphQL and SOAP API automation
-- Support video recording of the tests for Web platforms
-- Support for more cloud platforms
-- Many many more...
-
-## 👀 Usage
-
-Use this space to tell a little more about your project and how it can be used. Show additional screenshots, code samples, demos or link to other resources.
-
-```xml
-<dependency>
-  <groupId>com.github.wasiqb.boyka</groupId>
-  <artifactId>boyka-framework</artifactId>
-  <version>0.20.1</version>
-</dependency>
+```shell
+npm i -g @boykaframework/boyka-cli
 ```
+
+Once it is installed, run the following command to setup Boyka project:
+
+```shell
+boyka init [project-name]
+```
+
+When this command is executed, multiple set of questions will be prompted that must be answered to setup the project. By default, the Boyka project uses Java 17 as programming language and Maven as the build tool.
+
+> [!TIP]
+> Boyka CLI assistant will allow setting up the project quickly within seconds.
+
+## 👜 Resources
+
+- [🤔 What is Boyka Framework?](https://BoykaFramework.github.io/boyka-framework/docs/intro#what-is-boyka-framework)
+- [💡 Why Boyka Framework was created?](https://BoykaFramework.github.io/boyka-framework/docs/intro#why-boyka-framework-was-created)
+- [🎯 Features](https://BoykaFramework.github.io/boyka-framework/docs/intro#features)
+- [🚀 Quick start](https://BoykaFramework.github.io/boyka-framework/docs/getting-started/quickstart)
 
 ## ☕ Examples
 
 - API:
-  - [How to configure Boyka for API Automation?](https://boykaframework.github.io/boyka-framework/docs/guides/api/setup-config)
-  - [How to compose a request?](https://boykaframework.github.io/boyka-framework/docs/guides/api/compose-request)
-  - [How to execute a request?](https://boykaframework.github.io/boyka-framework/docs/guides/api/execute-request)
-  - [How to verify the response?](https://boykaframework.github.io/boyka-framework/docs/guides/api/verify-response)
+  - [How to configure Boyka for API Automation?](https://BoykaFramework.github.io/boyka-framework/docs/guides/api/setup-config)
+  - [How to compose a request?](https://BoykaFramework.github.io/boyka-framework/docs/guides/api/compose-request)
+  - [How to execute a request?](https://BoykaFramework.github.io/boyka-framework/docs/guides/api/execute-request)
+  - [How to verify the response?](https://BoykaFramework.github.io/boyka-framework/docs/guides/api/verify-response)
+  - [How to verify the response schema?](http://localhost:3000/boyka-framework/docs/guides/api/verify-response-schema)
 - UI:
   - Web:
-    - [How to configure Boyka for Web Automation?](https://boykaframework.github.io/boyka-framework/docs/guides/ui/web/setup-config)
-    - [How to create page object for Web?](https://boykaframework.github.io/boyka-framework/docs/guides/ui/web/create-page-object)
+    - [How to configure Boyka for Web Automation?](https://BoykaFramework.github.io/boyka-framework/docs/guides/ui/web/setup-config)
+    - [How to create page object for Web?](https://BoykaFramework.github.io/boyka-framework/docs/guides/ui/web/create-page-object)
   - Android:
-    - [How to configure Boyka for Android Automation?](https://boykaframework.github.io/boyka-framework/docs/guides/ui/android/setup-config)
-    - [How to update existing page object with Android locators?](https://boykaframework.github.io/boyka-framework/docs/guides/ui/android/create-page-object)
+    - [How to configure Boyka for Android Automation?](https://BoykaFramework.github.io/boyka-framework/docs/guides/ui/android/setup-config)
+    - [How to update existing page object with Android locators?](https://BoykaFramework.github.io/boyka-framework/docs/guides/ui/android/create-page-object)
   - iOS:
-    - [How to configure Boyka for iOS Automation?](https://boykaframework.github.io/boyka-framework/docs/guides/ui/ios/setup-config)
-    - [How to update existing page object for iOS locators?](https://boykaframework.github.io/boyka-framework/docs/guides/ui/ios/create-page-object)
-  - [How to create common application action class?](https://boykaframework.github.io/boyka-framework/docs/guides/ui/page-action)
-  - [How to write test class using common action class?](https://boykaframework.github.io/boyka-framework/docs/guides/ui/write-test)
+    - [How to configure Boyka for iOS Automation?](https://BoykaFramework.github.io/boyka-framework/docs/guides/ui/ios/setup-config)
+    - [How to update existing page object for iOS locators?](https://BoykaFramework.github.io/boyka-framework/docs/guides/ui/ios/create-page-object)
+  - [How to create common application action class?](https://BoykaFramework.github.io/boyka-framework/docs/guides/ui/page-action)
+  - [How to write test class using common action class?](https://BoykaFramework.github.io/boyka-framework/docs/guides/ui/write-test)
 
 ## 💎 Open source supporters
 
